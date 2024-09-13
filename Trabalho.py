@@ -45,7 +45,7 @@ def tela_1():
             tela_2()
         if event == 'enviar':    
             nome = valores['campo_nome']
-            if len(nome)<3:
+            if len(nome)<6:
                 sg.popup("esta errado é para colocar mais do que três letras")        
     window.close()
 
